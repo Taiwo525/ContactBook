@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>@ViewData["Title"] - Staycation</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+
+        <!-- Favicons -->
+        <link href="~/img/favicon.png" rel="icon">
+        <link href="~/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+        <!-- Vendor CSS Files -->
+        <link href="~/lib/vendor/aos/aos.css" rel="stylesheet">
+        <link href="~/lib/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="~/lib/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="~/lib/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="~/lib/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="~/lib/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+        type="text/css"
+        <!-- Template Main CSS File -->
+        <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/signup.css" asp-append-version="true" />
+        <!--<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />-->
+
+   
+    </head>
+
+    <body>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top d-flex align-items-center">
+            <div class="container d-flex justify-content-between">
+
+                <div >
+                    <h1><a href="index.html"><span style = "color:blue">Stay</span><span style="color:rgb(0,0,20)">cation</span> </a></h1>
+                </div>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto " style="color:blue" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a class="nav-link scrollto" asp-controller="LogSign" asp-action="Login">Login</a></li>
+                        <li><a class="nav-link scrollto" asp-controller="LogSign" asp-action="Sign_Up">Sign_Up</a></li>
+                        <li><a class="nav-link scrollto" href="#about">Browse By</a></li>
+                        <li><a class="nav-link scrollto" href="#services">Stories</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Agents</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+
+            </div>
+        </header>
+
+
+ 
+        <main id="main">
+
+            @RenderBody()
+           i
+
+        </main>
+
+
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <h2><a href="index.html"><span style="color:blue">Stay</span><span style="color:rgb(0,0,20)">cation</span> </a></h2>
+                                <p>
+                                    We kaboom your beauty holiday<br/>instantly and memorable<br/>
+                                </p>
+                             </div>
+                        </div>
+
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>For Beginners</h4>
+                            <ul>
+                                <li><a href="#">New Account</a></li>
+                                <li><a href="#">Start Booking a Room</a></li>
+                                <li><a href="#">Use Payments</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Explore Us</h4>
+                            <ul>
+                                <li><a href="#"> Our careers</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms and Conditions</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Connect with us</h4>
+                            <ul>
+                                <li><a href="#">Support@staycation.id</a></li>
+                                <li><a href="#">021-2208-1996</a></li>
+                                <li><a href="#">Staycation, Jemang, Jakarta.</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                            &copy; @DateTime.Now.Year<span> All Rights Reserved</span>.Staycation
+                </div>
+                <div class="credits">
+                
+                    Designed by <a href="">Taiwo Ayotomiwa</a>
+                </div>
+            </div>
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        </footer><!-- End Footer -->
+
+        
+
+        <!-- Vendor JS Files -->
+        <script src="~/lib/vendor/aos/aos.js"></script>
+        <script src="~/lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="~/lib/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="~/lib/vendor/swiper/swiper-bundle.min.js"></script>
+     
+
+        <!-- Template Main JS File -->
+        <script src="~/js/main.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+
+    </body>
+</html>

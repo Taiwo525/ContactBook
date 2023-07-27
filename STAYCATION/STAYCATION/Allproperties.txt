@@ -1,0 +1,19 @@
+| 223232  | MostPick1.png| Blue Origin Fams | Jakarta    | 50     |                                 |                                           | Most Picks      |
+| 223831  | item 1.png   | Ocean Land       | Bandung    | 22     |                                 |                                           | Most Picks      |
+| 223431  | item 2.png   | Stark House      | Malang     | 856    |                                 |                                           | Most Picks      |
+| 223931  | item 3.png   | Vinna Vill       | Malang     | 62     |                                 |                                           | Most Picks      |
+| 563232  | item 4.png   | Bobox            | Medan      | 72     |                                 |                                           | Most Picks      |
+| 343232  | B1.png       | Shabby Town      | Gunung Batu|        |                                 | Houses with beautiful Backyards           | Popular Choice  |
+| 533232  | B2.png       |   Anganna        | Bogor      |        |                                 | Houses with beautiful Backyards           |                 |
+| 232232  | B3.png       | Seattle Rain     | Jakarta    |        |                                 | Houses with beautiful Backyards           |                 |
+| 232232  | B4.png       | Wooden Pit       | Wonosoba   |        |                                 | Houses with beautiful Backyards           |                 |
+| 232444  | L1.png       | Green Park       |Tangarang   |        |                                 | Hotels with large living rooms            |                 |
+| 232666  | L2.png       | Podo Wae         | Padiun     |        |                                 | Hotels with large living rooms            |                 |
+| 232000  | L3.png       |Silver Rain       | Bandung    |        |                                 | Hotels with large living rooms            |                 |
+| 232777  | L4.png       | Cashville        | Kemang     |        |                                 | Hotels with large living rooms            | Popular Choice  |
+| 232777  | K1.png       |  PS Wood         | Depok      |        |                                 | Apartments with Kitchen set               |                 |
+| 232777  | K2.png       | One Five         | Jakarta    |        |                                 | Apartments with Kitchen set               |                 |
+| 232777  | K3.png       | Minimal          |  Bogor     |        |                                 | Apartments with Kitchen set               | Popular Choice  |
+| 232777  | K4.png       | Stays Home       | Wonosoba   |        |                                 | Apartments with Kitchen set               |                 |
+ 
+

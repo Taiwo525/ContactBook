@@ -1,0 +1,102 @@
+﻿
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Overlay styles */
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.head-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .head-form h2 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    .head-form p {
+        color: #777;
+    }
+
+/* Field set styles */
+.field-set {
+    margin-bottom: 20px;
+}
+
+.input-item {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    color: #999;
+}
+
+.form-input {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Show/hide password styles */
+#eye {
+    cursor: pointer;
+}
+
+/* Log In button styles */
+.log-in {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Other buttons styles */
+.other {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn.submits {
+        margin-right: 10px;
+    }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+    }
+}

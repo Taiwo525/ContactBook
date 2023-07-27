@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Property Details";
+    var mostpicks = ViewData["mostpicks"] as List<PictureData>;
+    var treasures = ViewData["treasures"] as List<PictureData>;
+}
+
+
+<section id="about" class="about" style="margin-top:20vh">
+    <div class="container">
+        <div class="left">
+            <h6></h6>
+            <span></span>
+            <div class="images">
+            </div>
+        </div>
+        <div class="right">
+            <h6></h6>
+            <h3></h3><span></span>
+            <span>How many night will you stay?</span>
+            <div class="selector">
+                <button class="red">-</button>
+                <span>2</span> <span>night</span>
+                <button class="green">+</button>
+            </div>
+
+            <span>Pick a date</span>
+            <div class="datetime">
+                <i class>Cal</i> <span>21 Jan - 22 Jan</span>
+            </div>
+
+        </div>
+    </div>
+</section><!-- End About Section -->
+<!-- ======= Houses with beauty Backyards ======= -->
+<section id="steps" class="steps section-bg">
+    <div class="container">
+        <div class="row" style="margin-bottom:3vh">
+            <div class="col">
+                <h4>Treasures to Choose</h4>
+            </div>
+        </div>
+
+        <div style="display:flex;flex-direction:row;justify-content:space-between;text-align:left">
+
+            <div class=" row no-gutters">
+
+                @if (mostpicks != null)
+                {
+                    foreach (var property in treasures)
+                    {
+                        if (property.Popularity == "Popular Choice")
+                        {
+                            <div class="col-lg-3 col-md-6" data-aos="fade-left" data-aos-delay="100">
+                                <div style="position:relative;">
+                                    <img src="@property.ImageUrl" class="img-fluid" alt="" style="border-radius:20px;height:30vh;width:250vw" data-aos="fade-in">
+                                    <span class="design2">@property.Popularity</span>
+                                </div>
+                                <div style="margin: 10px 0 0 10px">
+                                    <h5>@property.City</h5>
+                                    <p>@property.Location, Indonesia</p>
+                                </div>
+                            </div>  
+                        }
+                        else
+                        {
+                            <div class="col-lg-3 col-md-6 " data-aos="fade-right" data-aos-delay="100" style="align-items: flex-start">
+                                <img src="@property.ImageUrl" class="img-fluid" alt="" width="inherit" height="inherit" style=" border-radius:20px;height:30vh;width:250vw;" data-aos="fade-in">
+                                <div style="margin: 10px 0 0 10px">
+                                    <h5>@property.City</h5>
+                                    <p>@property.Location, Indonesia</p>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section><!-- End Houses with beauty Backyards -->

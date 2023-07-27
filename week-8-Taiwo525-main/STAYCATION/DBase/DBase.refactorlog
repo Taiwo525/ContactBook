@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="9571eece-9c44-4bae-9964-210d38322c74" ChangeDateTime="07/09/2023 11:06:59">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HotelURL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a52ee762-0356-42d8-8b1e-c1ef7c58bcdf" ChangeDateTime="07/09/2023 11:07:44">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[FName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HotelName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed5ff5fe-de6c-4e3d-bd75-0c3134e4b969" ChangeDateTime="07/09/2023 11:08:04">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[[Password]]]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HotelLocation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b48961e3-cf88-408c-9d53-bd3fec52c014" ChangeDateTime="07/09/2023 11:08:47">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[HotelURL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HotelImageUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="201bc9fa-0aaa-4d7b-b249-535d0f319753" ChangeDateTime="07/09/2023 12:39:43">
+    <Property Name="ElementName" Value="[dbo].[PictureDb].[HotelIsPopular]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PictureDb]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsPopular" />
+  </Operation>
+</Operations>
